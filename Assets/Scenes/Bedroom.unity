@@ -1030,7 +1030,6 @@ MonoBehaviour:
   animator: {fileID: 2045755271}
   leftWall: {fileID: 0}
   gm: {fileID: 1956792380}
-  player: {fileID: 1081129492}
 --- !u!95 &976658746 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9117113258356179117, guid: ba3f7c2c7e6c03e45ad3d27175ceacfa, type: 3}
@@ -1896,6 +1895,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2015179678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2015179679}
+  m_Layer: 0
+  m_Name: test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2015179679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015179678}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1304543, y: 0.5509949, z: -0.03992271}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2045755271 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3896245345821642463, guid: bf3f95c24547b3f4aa814aef2c4aeb8c, type: 3}
@@ -2249,3 +2279,4 @@ SceneRoots:
   - {fileID: 1712807586}
   - {fileID: 8520980472268637739}
   - {fileID: 597499824}
+  - {fileID: 2015179679}
